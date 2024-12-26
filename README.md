@@ -2,8 +2,6 @@
 
 A Chrome extension that enhances your Bitcoin Ordinals browsing experience by enabling seamless navigation between four major platforms: Ordiscan, Ord.io, Ordinals, and Magic Eden.
 
-![Extension Preview](./assets/preview.png)
-
 ## 🌟 Features
 
 - 🔄 Quick navigation between different Ordinals platforms
@@ -52,7 +50,7 @@ This extension only stores your preferred platform choice (Ordiscan, Ord.io, or 
 
 ## 📄 License
 
-MIT License - see [LICENSE](./LICENSE) for details
+MIT License
 
 ## 🤝 Contributing
 
