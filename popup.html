@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 250px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: #000000;
+      border-radius: 8px;
+    }
+
+    h3 {
+      margin: 0 0 20px 0;
+      text-align: center;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 600;
+      
+    }
+
+    .service-button {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      background: white;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .service-button:hover {
+      background: #ffffff;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .service-button.active {
+      background: #FFD700;
+      border-color: #ffffff;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .service-icon {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+    }
+
+    .ordiscan-icon {
+      color: currentColor;
+    }
+
+    .ordio-icon {
+      width: 20px;
+      height: 20px;
+    }
+
+    .ordinals-icon {
+      width: 20px;
+      height: 20px;
+    }
+    .social-link {
+      margin-top: 20px;
+      padding-top: 15px;
+      border-top: 1px solid #ddd;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .social-link a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 12px;
+      transition: color 0.2s ease;
+      font-weight: bold; /* Жирный шрифт */
+    }
+
+    .made-with {
+      color: #ffffff; /* Цвет сыра */
+      font-size: 12px;
+      font-weight: bold; /* Жирный шрифт */
+    }
+
+    .creator-line {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      font-size: 12px;
+      color: #666;
+    }
+
+    .x-icon {
+      font-family: serif;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h3>select explorer</h3>
+  <button class="service-button" data-service="ordinals">
+    <img src="ordinals.svg" class="service-icon ordinals-icon" alt="Ordinals logo">
+    ordinals.com
+  </button>
+  <button class="service-button" data-service="ordiscan">
+    <svg class="service-icon ordiscan-icon" viewBox="0 0 33 34" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M6.346 29.877a16.657 16.657 0 0 0 10.338 3.585 16.657 16.657 0 0 0 10.337-3.585H6.346Zm23.137-2.39H3.884a16.009 16.009 0 0 1-2.318-3.585H31.8a16.008 16.008 0 0 1-2.318 3.585ZM.645 21.512h32.077c.344-1.169.56-2.37.645-3.586H0a16.82 16.82 0 0 0 .645 3.586Zm0-9.562h32.077c.344 1.169.56 2.37.645 3.586H0a16.82 16.82 0 0 1 .645-3.586Zm28.838-5.975H3.885A16.01 16.01 0 0 0 1.566 9.56h30.235a16.008 16.008 0 0 0-2.318-3.585Zm-2.462-2.39A16.658 16.658 0 0 0 16.684 0 16.656 16.656 0 0 0 6.346 3.585H27.02Z" fill="currentColor"/>
+    </svg>
+    ordiscan.com
+  </button>
+  <button class="service-button" data-service="ordio">
+    <img src="ordio.svg" class="service-icon ordio-icon" alt="Ord.io logo">
+    ord.io
+  </button>
+  <div class="social-link">
+    <div class="made-with">made with 🧀</div>
+    <a href="https://x.com/TangataNui" target="_blank" class="creator-line">
+      by TangataNui
+    </a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

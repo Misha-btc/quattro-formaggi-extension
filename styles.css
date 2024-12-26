@@ -1,0 +1,41 @@
+.ordiscan-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f5f3f7;
+  background: rgba(121,121,121,0.3);
+  backdrop-filter: blur(6px);
+  border: 1px solid transparent;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.tw-group:hover .ordiscan-button {
+  opacity: 1;
+}
+
+.ordiscan-button:hover {
+  background: rgba(106,106,106,0.3);
+  backdrop-filter: blur(10px);
+}
+
+.ordiscan-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.ordio-icon {
+  width: 20px;
+  height: 20px;
+  fill: #5659F8;
+}
+
+.ordinals-icon {
+  width: 20px;
+  height: 20px;
+  fill: #F7931A;
+}
