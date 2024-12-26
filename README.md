@@ -2,6 +2,8 @@
 
 A Chrome extension that enhances your Bitcoin Ordinals browsing experience by enabling seamless navigation between four major platforms: Ordiscan, Ord.io, Ordinals, and Magic Eden.
 
+![Extension Preview](./assets/preview.png)
+
 ## 🌟 Features
 
 - 🔄 Quick navigation between different Ordinals platforms
@@ -39,7 +41,7 @@ This extension only stores your preferred platform choice (Ordiscan, Ord.io, or 
 ### Setup
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/quattro-formaggi-extension.git
+   git clone git@github.com:Misha-btc/quattro-formaggi-extension.git
    ```
 2. Load the extension in Chrome:
    - Open Chrome
@@ -59,4 +61,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 🙏 Acknowledgments
 
 - Bitcoin Ordinals community
-- All supported platforms for their amazing services
+- All supported platforms for their amazing services 
